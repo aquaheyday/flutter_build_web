@@ -84876,7 +84876,7 @@ return new A.Tu(new A.aN(s,t.am),A.f9(s),A.f9(s),A.f9(s),A.a(["\uc2a4\ud0c0\ubc8
 A.Tu.prototype={
 ek(){var s=0,r=A.Z(t.z),q=this,p,o,n,m,l
 var $async$ek=A.a_(function(a,b){if(a===1)return A.W(b,r)
-while(true)switch(s){case 0:o=A.dI("http://localhost/api/room")
+while(true)switch(s){case 0:o=A.dI("https://goseam.com/api/room")
 n=t.N
 m=A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],n,n)
 s=2
@@ -84924,7 +84924,7 @@ ek(){var s=0,r=A.Z(t.z),q=this,p
 var $async$ek=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.a6(A.aDx(A.dI("http://localhost/api/room/"+q.a.d+"/end"),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$ek)
+return A.a6(A.aDx(A.dI("https://goseam.com/api/room/"+q.a.d+"/end"),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$ek)
 case 2:if(b.b===200){p=q.c
 p.toString
 A.de(p,!1).er(null)
@@ -84960,7 +84960,7 @@ ek(){var s=0,r=A.Z(t.z),q=this,p
 var $async$ek=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.a6(A.aDx(A.dI("http://localhost/api/room/"+q.a.d+"/open"),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$ek)
+return A.a6(A.aDx(A.dI("https://goseam.com/api/room/"+q.a.d+"/open"),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$ek)
 case 2:if(b.b===200){p=q.c
 p.toString
 A.de(p,!1).er(null)
@@ -84984,7 +84984,7 @@ r.ay=s
 q=s}return q},
 ek(){var s=0,r=A.Z(t.z),q=this,p,o,n,m,l,k,j,i,h,g,f,e
 var $async$ek=A.a_(function(a,b){if(a===1)return A.W(b,r)
-while(true)switch(s){case 0:i=A.dI("http://localhost/api/order/"+q.a.d)
+while(true)switch(s){case 0:i=A.dI("https://goseam.com/api/order/"+q.a.d)
 h=t.N
 g=A.at(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],h,h)
 f=q.w.a.a
@@ -85055,7 +85055,7 @@ w8(){var s=0,r=A.Z(t.y),q,p=this,o,n,m,l,k,j
 var $async$w8=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=p.e.gK().le()?3:5
 break
-case 3:o=A.dI("http://localhost/api/register")
+case 3:o=A.dI("https://goseam.com/api/register")
 n=t.N
 m=A.at(["Content-Type","application/json"],n,n)
 s=6
@@ -85123,7 +85123,7 @@ while(true)switch(s){case 0:s=a!==""?2:3
 break
 case 2:p=t.N
 s=4
-return A.a6(A.Hc(A.dI("http://localhost/api/order/"+a),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$jx)
+return A.a6(A.Hc(A.dI("https://goseam.com/api/order/"+a),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$jx)
 case 4:o=c
 if(o.b===200)q.a4(new A.ao2(q,o))
 case 3:return A.X(null,r)}})
@@ -85268,7 +85268,7 @@ jo(){var s=0,r=A.Z(t.z),q=this,p,o
 var $async$jo=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.a6(A.Hc(A.dI("http://localhost/api/room"),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$jo)
+return A.a6(A.Hc(A.dI("https://goseam.com/api/room"),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$jo)
 case 2:o=b
 if(o.b===200)q.a4(new A.a9_(q,o))
 return A.X(null,r)}})
@@ -85277,7 +85277,7 @@ oC(a){var s=0,r=A.Z(t.z),q=this,p,o
 var $async$oC=A.a_(function(b,c){if(b===1)return A.W(c,r)
 while(true)switch(s){case 0:o=t.N
 s=2
-return A.a6(A.Hc(A.dI(B.c.O("http://localhost/api/room/",a)),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],o,o)),$async$oC)
+return A.a6(A.Hc(A.dI(B.c.O("https://goseam.com/api/room/",a)),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],o,o)),$async$oC)
 case 2:if(c.b===200){o=q.c
 o.toString
 p=B.c.O("/room/",a)
@@ -85379,7 +85379,7 @@ a1K(a,b){var s=0,r=A.Z(t.z),q=this,p
 var $async$w7=A.a_(function(c,d){if(c===1)return A.W(d,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.a6(A.aDO(A.dI("http://localhost/api/room/"+b),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$w7)
+return A.a6(A.aDO(A.dI("https://goseam.com/api/room/"+b),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$w7)
 case 2:q.a4(new A.aj7(q))
 A.de(a,!1).er(null)
 q.a.jR()
@@ -85409,7 +85409,7 @@ jx(a){var s=0,r=A.Z(t.z),q=this,p,o,n,m
 var $async$jx=A.a_(function(b,c){if(b===1)return A.W(c,r)
 while(true)switch(s){case 0:n=t.N
 s=2
-return A.a6(A.Hc(A.dI("http://localhost/api/room/"+a),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn")),"password",q.f.a.a],n,n)),$async$jx)
+return A.a6(A.Hc(A.dI("https://goseam.com/api/room/"+a),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn")),"password",q.f.a.a],n,n)),$async$jx)
 case 2:m=c
 if(m.b===200){p=B.X.hC(0,B.E.cT(0,m.w),null)
 n=J.K(p,"success")
@@ -85447,7 +85447,7 @@ w9(){var s=0,r=A.Z(t.z),q=this,p,o
 var $async$w9=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.a6(A.Hc(A.dI("http://localhost/api/room/chart"),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$w9)
+return A.a6(A.Hc(A.dI("https://goseam.com/api/room/chart"),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$w9)
 case 2:o=b
 if(o.b===200)q.a4(new A.a9d(q,o))
 return A.X(null,r)}})
@@ -85510,7 +85510,7 @@ jo(){var s=0,r=A.Z(t.z),q=this,p,o
 var $async$jo=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.a6(A.Hc(A.dI("http://localhost/api/room/top"),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$jo)
+return A.a6(A.Hc(A.dI("https://goseam.com/api/room/top"),A.at(["Accept","application/json","Authorization","Bearer "+J.bk(window.localStorage.getItem("tkn"))],p,p)),$async$jo)
 case 2:o=b
 if(o.b===200)q.a4(new A.amA(q,o))
 return A.X(null,r)}})
@@ -85594,7 +85594,7 @@ wi(){var s=0,r=A.Z(t.z),q,p=this,o,n,m,l,k,j
 var $async$wi=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=p.e.gK().le()?3:5
 break
-case 3:o=A.dI("http://localhost/api/login")
+case 3:o=A.dI("https://goseam.com/api/login")
 n=t.N
 m=A.at(["Content-Type","application/json"],n,n)
 s=6
