@@ -86720,7 +86720,7 @@ A.ha(s).fC(0,"/",null)}},
 tv(){var s=0,r=A.Z(t.z),q=this,p,o,n,m,l,k,j
 var $async$tv=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a2($.axp().AC(!1,A.a(["png"],t.s),B.mm,!0),$async$tv)
+return A.a2($.axp().AC(!1,A.a(["jpg","jpeg","png"],t.s),B.mm,!0),$async$tv)
 case 2:j=b
 s=j!=null?3:4
 break
@@ -86784,7 +86784,7 @@ $0(){this.a.f=B.c.M("https://goseam.com",J.bd(J.J(B.P.ft(0,B.B.cH(0,this.b.w),nu
 $S:0}
 A.anz.prototype={
 $1(a){var s=null
-return A.eD(A.a([A.a9("png \ud30c\uc77c\ub9cc \uc5c5\ub85c\ub4dc \uac00\ub2a5\ud569\ub2c8\ub2e4.",s,s,s,s,s,s,s)],t.p),s,s)},
+return A.eD(A.a([A.a9("jpg, jpeg, png \ud30c\uc77c\ub9cc \uc5c5\ub85c\ub4dc \uac00\ub2a5\ud569\ub2c8\ub2e4.",s,s,s,s,s,s,s)],t.p),s,s)},
 $S:27}
 A.anr.prototype={
 $0(){this.a.tv()},
