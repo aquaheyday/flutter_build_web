@@ -86201,7 +86201,7 @@ return A.a2(A.x1(A.dp("https://goseam.com/api/order/"+a),A.ar(["Accept","applica
 case 4:o=c
 p=o.b
 if(p===200)q.a1(new A.api(q,o))
-else if(p===401){p=window.localStorage
+else if(p===500){p=window.localStorage
 p.toString
 B.hc.C(p,"tkn")
 p=q.c
@@ -86593,7 +86593,7 @@ return A.a2(A.x1(A.dp("https://goseam.com/api/room/top"),A.ar(["Accept","applica
 case 2:o=b
 p=o.b
 if(p===200)q.a1(new A.anL(q,o))
-else if(p===401){p=window.localStorage
+else if(p===500){p=window.localStorage
 p.toString
 B.hc.C(p,"tkn")
 p=q.c
@@ -86757,7 +86757,7 @@ return A.a2(A.x1(A.dp("https://goseam.com/api/user"),A.ar(["Accept","application
 case 2:o=b
 p=o.b
 if(p===200)q.a1(new A.anq(q,o))
-else if(p===401){p=window.localStorage
+else if(p===500){p=window.localStorage
 p.toString
 B.hc.C(p,"tkn")
 p=q.c
